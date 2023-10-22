@@ -1,0 +1,30 @@
+.modalBtn{
+    cursor: pointer;
+    background: none;
+    padding: 15px 30px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    transition: 0.3s;
+}
+.modalBtn:hover{
+    background-color: gray;
+    color: #fff;
+}
+.modal{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    
+}
+.modal p{
+    padding: 50px;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0.3;
+    width: 100vh;
+    height: 200px;
+    position: absolute;
+}
